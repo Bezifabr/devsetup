@@ -1,14 +1,14 @@
 # devsetup
 
 
-## General step to prepare my MacOS device for work
+# General step to prepare my MacOS device for work
 
-### Install brew
+## Install brew
 ```sh
 TBD
 ```
 
-### Install iTerm
+## Install iTerm
 ```sh
 TBD
 ```
@@ -18,8 +18,15 @@ TBD
 ```sh
 TBD
 ```
+TODO: Add .zshrc here
+TODO: Split .zshrc into smaller files
 
-### Install lazygit
+## Install VIM
+
+### Configure VIM with lines and colored syntax
+TODO: Add VIM configuration here
+
+## Install lazygit
 ```sh
 brew install lazygit
 ```
@@ -27,4 +34,15 @@ brew install lazygit
 ### Install lazydocker
 ```sh
 brew install lazydocker
+```
+
+
+## Setup aliases
+```
+alias lg="lazygit"
+alias ld="lazydocker"
+alias zshedit="vim ~/.zshrc"
+alias zshsource="source ~/.zshrc"
+
+alias cdbase="cd ~/Documents/BASE"
 ```
